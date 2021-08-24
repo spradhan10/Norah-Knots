@@ -1,0 +1,173 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    
+
+}
+.flex-box{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+#products, #about-us{
+    margin: 1.6em ;
+ }
+
+ h3{
+    font-family: 'Style Script', cursive;
+    font-size: 3em;
+ }
+/* ----------- Header --------------------- */
+header{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(255, 250, 245);
+    border-bottom: 5px solid burlywood;
+    position:fixed;
+    top:0;
+ 
+}
+header .flex-box{
+    height: 100%;
+    align-items:flex-end;
+}
+
+#logo{
+    height: 150px;
+    width: 160px;
+    font-family: 'Great Vibes', cursive;
+    border: 1.5px pink solid;
+    
+    border-radius: 50%;
+    /* padding-top: 25px;
+    color: pink;
+    text-shadow: 1px 1px 2px rgb(128, 65, 6); */
+    overflow: hidden;
+
+}
+#logo img{
+    height:100%;
+    width: 100%;
+    display: block;
+    
+}
+nav{ 
+    height: 100%;
+    /* border:2px black solid;  */
+    display:flex;
+    align-items: flex-end;
+  
+     
+}
+
+  .navBox a{
+    text-decoration: none;
+    color: rgb(128, 65, 6);
+    height: 50px;
+    padding-left:2em;
+    align-items: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 1.5em;
+    
+    
+
+
+}
+
+/* ------------------ Mission ---------------------------- */
+
+
+#mission{
+    height: 40em;;
+    width: 80%;
+    margin: 65px auto 0;
+    background-image: url("./images/macBk1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    background-attachment: fixed;
+
+}
+h2{
+    margin: 15% auto 0;
+    font-family: 'Style Script', cursive;
+    font-weight: bold;
+    font-size: 5.5em;
+    background-color: rgb(238, 208, 177, .3) ;
+    border-radius: 10px;
+    width: fit-content;
+    word-spacing: 20px;
+
+
+}
+
+#mission p{
+    margin: 1.6em auto;
+    padding: 0 2.5em;
+    background-color: rgb(238, 208, 177, .4) ;
+    width: fit-content;
+    font-family: 'Parisienne', cursive;
+    font-size: 2em;
+    word-spacing: 10px;
+}
+ /* ------------ Product --------------  */
+ 
+ #products .flex-box{
+     
+     justify-content: space-around;
+     height: 40m;
+     width: auto;
+     padding-bottom: 20px;
+     /* border-top: 5px solid burlywood;*/
+     border-bottom: 5px solid burlywood; 
+     flex-wrap: wrap;
+ 
+
+ }
+
+
+ .product{
+    height: 400px;
+    width: 400px;
+     overflow: hidden;
+     border: 20px solid burlywood;
+    margin: 5px;
+     
+ }
+
+ .product img{
+     height:100%;
+     width: 100%;
+     display: block;
+ }
+
+ /* ---------- The Team ------------- */
+#about-us .flex-box{
+    flex-wrap: wrap;
+}
+ .team{
+     border: 3px black solid;
+     height: 500px;
+     width: 300px;
+     overflow: auto;
+     align-items: center;
+ 
+
+ }
+ .team img{
+     display:block;
+     height:80%;
+     width: 100%;
+    
+     
+ }
+ .team h3{
+     font-size: 22px;
+ }
+
+ @media (min-width: 300px) and (max-width: 480px) {
+
+
+ }
