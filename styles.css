@@ -170,6 +170,23 @@ h2{
      font-size: 22px;
  }
 
+/* --------------- Footer -------- */
+
+footer{
+    margin-top: 2em;
+    font-size: 1.3rem;
+    
+}
+
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Style Script', cursive;
+    font-size: 1.8rem;
+}
+
+
  @media (min-width: 300px) and (max-width: 480px) {
 
 
