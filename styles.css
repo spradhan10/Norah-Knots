@@ -32,7 +32,7 @@ header{
 header .flex-box{
     height: 100%;
     align-items:flex-end;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 
 #logo{
@@ -59,6 +59,7 @@ border-radius: 50%;
 }
 
 nav{ 
+
     height: 100%;
     display:flex;
     align-items: flex-end;
@@ -192,7 +193,16 @@ footer a{
 }
 
 
- @media (min-width: 300px) and (max-width: 480px) {
+ @media (min-width: 300px) and (max-width: 568px) {
 
+    /* ------- header -------------- */
+
+    #logo{
+        float:none;
+        
+    }
+    #logo h5{
+        font-size: 1.8rem;
+    }
 
  }
