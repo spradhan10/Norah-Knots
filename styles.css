@@ -21,7 +21,7 @@ body{
  }
 /* ----------- Header --------------------- */
 header{
-    height: 150px;
+    height: 125px;
     width: 100%;
     background-color: rgb(255, 250, 245);
     border-bottom: 5px solid burlywood;
@@ -37,26 +37,29 @@ header .flex-box{
 
 #logo{
     float: left;
-    height: 140px;
-    width: 150px;
+    height: 100px;
+    width: 120px;
     font-family: 'Great Vibes', cursive;
     border: 1.5px pink solid;
     border-radius: 50%;
-    /* padding-top: 25px;
-    color: pink;
-    text-shadow: 1px 1px 2px rgb(128, 65, 6); */
-    overflow: hidden;
+    padding-top: 25px;
+    background-image:url(symbol.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.8;
 
 }
-#logo img{
-    height:100%;
-    width: 100%;
-    display: block;
-    
+ #logo h5{
+background-color: rgba(211, 196, 177, 0.3);
+width: fit-content;
+font-size: 1.2rem;
+text-align: center;
+margin: 20% auto;
+border-radius: 50%;
 }
+
 nav{ 
     height: 100%;
-    /* border:2px black solid;  */
     display:flex;
     align-items: flex-end;
     
@@ -71,7 +74,7 @@ nav{
     padding: 0 1em;
     align-items: center;
     font-family: 'Parisienne', cursive;
-    font-size: 1.5em;
+    font-size: 1.8em;
     
     
     
@@ -175,6 +178,7 @@ h2{
 footer{
     margin-top: 2em;
     font-size: 1.3rem;
+    color: rgb(128, 65, 6);
     
 }
 
@@ -184,6 +188,7 @@ footer a{
     color: black;
     font-family: 'Style Script', cursive;
     font-size: 1.8rem;
+    color: rgb(128, 65, 6);
 }
 
 
